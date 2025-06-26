@@ -1,0 +1,78 @@
+body{
+    font-family: 'manrope', sans-serif;
+    font-size: 1em;
+    background-color: white;;
+}
+
+
+
+
+
+.logo-openclassroom{
+    background-image: url('logo-openclassrooms.png');
+    background-attachment: fixed;
+    background-color: rgb(169, 96, 96, 0);
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+.centre{
+    text-align: center;
+}
+
+.no-line{
+    text-decoration: none;
+    text-align: justify;
+}
+
+.oblique{
+    font-style: normal;
+    font-weight: 800;
+ 
+}
+
+.banniere{
+    font-family: 'kanit', sans-serif;
+    margin: 0;
+    padding: 100px;
+    background-image: url(paysage.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-size: cover; */
+}
+
+.adjust{
+    position: absolute;
+    left: 10px;
+    bottom: 175px;
+   
+}
+
+
+.bannier{
+    background: url('../pixel/banniere.png')  no-repeat;
+    
+}
+
+.banner{
+    background: linear-gradient(#8E86B5, #A5B4FC);
+    width: 70%;
+    height: 105px;
+}
+.latin1{
+    /* position: fixed; fixe la position du block même si l'utilisateur fait défiler la page */
+    background-color: yellow;
+    text-align: justify;
+    width: 50%;
+    margin: 20px;/* margin: 20px  ; is the same as margin: 20px(up) 20px(right) 20px(down) 20px(left) ; */
+    padding: 20px;  /* Le padding sépare le texte de la bordure(border) du block, après la bordure viens la margin */
+}
+
+.latin2{
+    background-color: yellow;
+    width: 50%;   
+    margin: auto;/* margin: auto ; permet de centrer horizontalement le block */ 
+    padding: 20px;  /* Le padding sépare le texte de la bordure(border) du block, après la bordure viens la margin */
+}
+

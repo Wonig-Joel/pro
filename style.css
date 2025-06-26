@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+}
+
+.competences{
+    border-bottom: 1px #8e86b5 solid;
+    border-right: 1px #8e86b5 solid ;
+    padding: 50px;
+    
+    
+    
+    
+}
+
+.a-propos-main{
+    width: 50%;
+    margin:auto;
+}
+
+.contenu{
+    padding: 80px;
+    
+
+    
+}
+
+
+
+h1{
+    color:#A5B4FC;
+    font-size: 3.5em;
+    font-family: 'montserrat', sans-serif;
+}
+
+/*h1:hover{
+    background-color: brown;
+    text-decoration-line: line-through;
+} */
+
+h2{
+    color: #F9F8FF;
+    margin-top: 30px;
+}
+
+p, .liste{
+    font-size: 1.1em;
+    font-family: 'manrope', sans-serif;
+    color: #F9F8FF;
+}
+
+.competences ul{
+    margin-top: 30px;
+}
+
+a:hover{
+    
+    /* the first line can be deleted anytime. */
+    text-decoration: underline;;
+}
+
+.lien-blanc:hover{
+    
+    text-decoration: none;
+    background: linear-gradient(#696484, #8788BA);
+}
+
+.lien-blanc{
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(#8E86B5, #A5B4FC);
+    padding-left: 20px ;
+    padding-right: 25px ;
+}
+
+a{  
+    text-decoration: none;
+    font-family: 'manrope', sans-serif;
+    color: #242424; 
+}
+
+
+
+
+
+.entete, .pied-de-page{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.lien-icone:hover{
+    /* how to emphasise link icon when hovered on. */
+  opacity: 0.5; 
+}
+
+em{
+    color: #A5B4FC;
+    font-style: normal;
+   
+}
